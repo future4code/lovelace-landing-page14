@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 15px 20px;
+}
+
+main{
+    border: solid 2px green;
+}
+
+footer{
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
