@@ -11,33 +11,39 @@ header{
 }
 
 main{
-    border: solid 2px green;
+    border: solid 3px green;
 }
 
 .container-info {
-    border: solid 2px yellow;
+    border: solid 3px yellow;
     height: 400px;
+
 }
 
-.container-servicos {
-    border: solid 2px red;
-    height: 400px;
 
+.container-servicos {
+    border: solid 3px red;
+    height: 400px;
+    width: 100%;
+  
 }
 
 .container-colaboradores {
-    border: solid 2px blue;
+    border: solid 3px blue;
     height: 400px;
+    
 }
 
 .faq {
-    border: solid 2px indigo;
+    border: solid 3px indigo;
     height: 400px;
+    
 }
 
 .cadastro {
-    border: solid 2px indigo;
+    border: solid 3px indigo;
     height: 400px;
+    
 }
 footer {
     display: flex;
@@ -59,9 +65,16 @@ nav{
 }
 
 .imagem {
-    max-width: 50px;
+    max-width: 250px;
+    position: relative;
+    float: right;
+    border-left:  5px;
+}
+.img{
+    width: 5%;
 }
 
 textarea {
     resize: none;
   }
+
