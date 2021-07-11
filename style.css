@@ -5,11 +5,14 @@
 
 body {
     height: 200vh;
+    scroll-behavior: smooth;
+    font-family: cambria;
+    font-size: 14px;
 }
 header{
     display: flex;
     justify-content: space-around;
-    background-color: whitesmoke;
+    background-color: yellow;
     position:sticky;
     top:0;
     border-collapse: collapse;
@@ -20,13 +23,13 @@ header{
      text-transform: uppercase;
      font-weight: 600;
      border:none;
-     padding: 10px;
+     padding: 5px;
      cursor:pointer;
      display: inline-block;
      text-decoration: none;
 
  }
- .btn-orange: hover{
+ .btn-orange hover{
      background: linearGradient(red,yellow);
      color: #fff;  
      box-shadow: 0 5px 0 #003f00;
@@ -36,19 +39,19 @@ header{
     top: 4px;
     box-shadow: none;
 }
-        .novaproti{
-            background-color: orange;
-            opacity: 0.7;
-        }
+.novaproti{
+         background-color: orange;
+        opacity: 0.7;
+}
 
 
 .container-info {
-    height: 400px;
+    height: 450px;
     background-image: url(img/logo.png);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: repeat;
     text-align: center;
-    color:white;
+    color:black;
     font-size: large;
   
     
@@ -57,7 +60,7 @@ header{
 
 
 .container-servicos {
-    height: 400px;
+    height: 450px;
     background-image: url(img/card-servicos.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
@@ -65,35 +68,39 @@ header{
     text-align: center;
     color:black;
     font-size: large;
-    opacity: 0.8;
+
 }
 
 .container-colaboradores {
-    height: 400px;
+    height: 450px;
     background-image: url(img/card-equipe.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color:white;
-    font-size: large;
-    opacity: 0.8;
+    font-size: 20px;
+ 
     
 }
 
 .faq {
-    height: 400px;
+    height: 450px;
     background-image: url(img/card-duvidas.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color:black;
-    opacity: 0.5;
+    font-size: 16px;
+    
     
 
 }
 
+a {
+    color: white;
+}
 
 #footer {
     display: flex;
