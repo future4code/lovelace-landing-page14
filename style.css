@@ -46,13 +46,13 @@ header{
 
 
 .container-info {
-    height: 450px;
+    height: 100%;
     background-image: url(img/logo.png);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: repeat;
     text-align: center;
     color:black;
-    font-size: large;
+    font-size: 20px;
   
     
  
@@ -60,19 +60,19 @@ header{
 
 
 .container-servicos {
-    height: 450px;
+    height: 100%;
     background-image: url(img/card-servicos.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color:black;
-    font-size: large;
+    font-size: 20px;
 
 }
 
 .container-colaboradores {
-    height: 450px;
+    height: 100%;
     background-image: url(img/card-equipe.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
@@ -85,14 +85,14 @@ header{
 }
 
 .faq {
-    height: 450px;
+    height: 100%;
     background-image: url(img/card-duvidas.jpg);
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color:black;
-    font-size: 16px;
+    font-size: 20px;
     
     
 
