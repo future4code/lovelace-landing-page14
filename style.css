@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    height: 100vh;
+    font-family: cambria;
+    font-size: 14px;
+}
+
+/* estilização do header */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    position:fixed;
+    top: 0;
+    border-collapse: collapse;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* estilização dos botões dentro do header */
+ .btn{
+     font-family: cambria;
+     font-size: 12px;
+     text-transform: uppercase;
+     font-weight: 600;
+     border:none;
+     padding: 5px;
+     cursor:pointer;
+     display: inline-block;
+     text-decoration: none;
+     text-align: center;
+ }
+
+/* estilização quem somos */
+.container-info{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/logo.png);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-repeat: repeat;
+    text-align: center;
+    color:black;
+    font-size: 1.7em;
+    padding-top: 15px;
+}
+/* estilização produtos */
+.container-servicos{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/card-servicos.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    font-size: 1.7em;
+}
+
+/* estilização nosso time */
+.container-colaboradores{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    background-image: url(img/card-equipe.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    align-items: center;
+    flex-direction: column;
+    padding-top:40vh;   
+}
+
+/* estilização do perguntas frequentes */
+.faq{
+    height: 100vh;
+    display: flex;
+    color: whitesmoke;
+    background-image: url(img/dolar.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.5em;
+    align-items: center;
+    flex-direction: column;
+    padding-top:25vh;
+}
+
+/* estilização da tag anchor */
+a {
+    color: black;
+}
+
+/* estilização do link de volta ao topo */
+.inicio {
+    color: white;
+    font-family: cambria;
+     font-size: 14px;
+     text-transform: uppercase;
+     font-weight: 600;
+     border:none;
+     padding: 5px;
+     cursor:pointer;
+     display: inline-block;
+     text-decoration: none;
+}
+
+/* estilização do footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #111111;
+    color:#f5f5f5;
+    height: 28vh;
+    padding-top: 3.7vh;
+}
+
+/* alinhamento do footer */
+.alinhamento{
+    padding: 5%;
+}
+
+/* tamanho e backcolor das imagens do footer */
+.img{
+    width: 40px;
+    background-color: blanchedalmond;
+}
